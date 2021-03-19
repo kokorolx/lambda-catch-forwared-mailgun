@@ -9,7 +9,9 @@ provider:
   runtime: nodejs12.x
   lambdaHashingVersion: '20201221'
   environment:
-    MAILGUN_API_KEY: ${param:MAILGUN_API_KEY}
+    SMTP_USER: ${param:SMTP_USER}
+    SMTP_PWD: ${param:SMTP_PWD}
+    SMTP_HOST: ${param:SMTP_HOST}
 
 functions:
   api:
