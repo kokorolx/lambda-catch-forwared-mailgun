@@ -1,3 +1,8 @@
+# Main flow:
+
+![image](https://user-images.githubusercontent.com/35665527/111958936-6a166900-8b20-11eb-9db1-628471d4b621.png)
+
+
 # Serverless Framework Node Express API on AWS
 
 This template demonstrates how to develop and deploy a simple Node Express API service running on AWS Lambda using the traditional Serverless Framework.
