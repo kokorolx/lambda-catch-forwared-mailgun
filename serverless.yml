@@ -12,6 +12,7 @@ provider:
     SMTP_USER: ${param:SMTP_USER}
     SMTP_PWD: ${param:SMTP_PWD}
     SMTP_HOST: ${param:SMTP_HOST}
+    MAILGUN_API_KEY: ${param:MAILGUN_API_KEY}
 
 functions:
   api:
